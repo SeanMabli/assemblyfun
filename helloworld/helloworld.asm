@@ -1,17 +1,14 @@
-section .text:
+section .text
   global _start
 
 _start:
-  mov eax, 0x4
-  mov ebx, 1
-  mov ecx, message
-  mov edx, messagelength
-  int 0x80
+  mov	eax, 4    ; print command
+  mov	ecx, data ; print data
+  mov	edx, len  ; print length
+  int	0x80      ; run in kernel
 
-  mov eax, 0x1
-  mov ebx, 0
-  int 0x80
+  mov	eax, 1    ; exit command
+  int	0x80      ; run in kernel
 
-section .data:
-  message: db "Hello World", 0xA
-  messagelength equ $ - message
+data db 'Hello World!', 0xA
+len equ $ - data
