@@ -30,7 +30,7 @@ _start:
 section .data
   msg db "The sum is: " 
   len equ $ - msg
-  num1 db '3'
-  num2 db '4'
+  num1 db '7'
+  num2 db '2'
   segment .bss
   sum resb 1
