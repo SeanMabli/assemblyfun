@@ -8,12 +8,11 @@ _start:
 
   mov	eax, 4        ; print command
   mov	ecx, data     ; print data
-  mov	edx, len      ; print length
+  mov	edx, 2      ; print length
   int	0x80          ; run in kernel
 
   mov	eax, 1        ; exit command
   int	0x80          ; run in kernel
 
 section .data
-  data dw 5         ; define data
-  len equ $ - data  ; define data length
+  data dd 7.202         ; define data
