@@ -14,21 +14,21 @@
   <tbody>
     <tr>
       <th>duration</th>
-      <td>3829076</td>
-      <td>3525730</td>
-      <td>4930902</td>
-      <td>4106681</td>
-      <td>3781224</td>
-      <td>55366079</td>
+      <td>53848294</td>
+      <td>4055003</td>
+      <td>5546113</td>
+      <td>3620263</td>
+      <td>59932178</td>
+      <td>4670335</td>
     </tr>
     <tr>
       <th>output</th>
-      <td>9</td>
-      <td>8</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>(b'9', b'')</td>
+      <td>(b'8', b'')</td>
+      <td>(b'', b'')</td>
+      <td>(b'', b'')</td>
+      <td>(b'', b'')</td>
+      <td>(b'', b'')</td>
     </tr>
   </tbody>
 </table>
