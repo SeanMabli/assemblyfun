@@ -12,7 +12,7 @@ _start:
     dec  eax
     jnz  loop
 
-  add ebx, '0'
+  add ebx, 0x30
   mov [sum], ebx
 
   mov  edx, 1
@@ -27,4 +27,5 @@ _start:
 section	.data
   array db 2, 1, 2, 3
   len equ $ - array
-  sum db  0
+  segment .bss
+  sum resb 1

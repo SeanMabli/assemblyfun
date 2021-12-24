@@ -1,7 +1,34 @@
-# assembly fun
-addition - works with 1-digit + 1-digit that don't sum to 2-digit<br />
-array  - adds array of 1-digit that don't sum to 2-digit <br />
-double - doesn't work <br />
-float - doesn't work <br />
-helloworld - working <br />
-int - working with 1-digit positive integers <br />
+# assemblyfun
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>addition</th>
+      <th>array</th>
+      <th>float</th>
+      <th>int</th>
+      <th>helloworld</th>
+      <th>double</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>duration</th>
+      <td>3829076</td>
+      <td>3525730</td>
+      <td>4930902</td>
+      <td>4106681</td>
+      <td>3781224</td>
+      <td>55366079</td>
+    </tr>
+    <tr>
+      <th>output</th>
+      <td>9</td>
+      <td>8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

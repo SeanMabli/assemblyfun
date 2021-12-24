@@ -1,4 +1,7 @@
-FILE="int"
-nasm -f elf32 $FILE/$FILE.asm -o $FILE/$FILE.o
-ld -m elf_i386 $FILE/$FILE.o -o $FILE/$FILE.exe
-./$FILE/$FILE.exe
+python3 speed.py
+
+# FILE="addition"
+# OS="linux"
+# nasm -f elf32 $OS/$FILE/$FILE.asm -o $OS/$FILE/$FILE.o
+# ld -m elf_i386 $OS/$FILE/$FILE.o -o $OS/$FILE/$FILE.exe
+# ./$OS/$FILE/$FILE.exe
