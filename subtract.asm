@@ -4,12 +4,12 @@ section	.text
 _start:
   mov al, [num1]
 
-  add al, [num2]
+  sub al, [num2]
   add	al, 0x30
-  mov [sum], al
+  mov [res], al
 
   mov	ax, 4
-  mov	ecx, sum
+  mov	ecx, res
   mov	edx, 1
   int	0x80
 
@@ -21,4 +21,4 @@ section .data
   num2 db 3
 
 segment .bss
-  sum resb 1
+  res resb 1
