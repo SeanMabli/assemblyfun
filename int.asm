@@ -15,5 +15,5 @@ _start:
   int	0x80          ; run in kernel
 
 section .data
-  data db 5        ; define data
+  data db 51        ; define data
   len equ $ - data  ; define data length
