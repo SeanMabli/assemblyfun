@@ -15,5 +15,5 @@ ld -m elf_i386 linux/$FILE.o -o linux/$FILE.exe
 # helloworld.exe
 # fi
 
-rm $OS/$FILE.o
-rm $OS/$FILE.exe
+# rm $OS/$FILE.o
+# rm $OS/$FILE.exe
