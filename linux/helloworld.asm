@@ -2,13 +2,13 @@ section .text
   global _start
 
 _start:
-  mov	eax, 4    ; print command
-  mov	ecx, data ; print data
-  mov	edx, len  ; print length
-  int	0x80      ; run in kernel
+  mov	eax, 4
+  mov	ecx, data
+  mov	edx, len
+  int	0x80
 
-  mov	eax, 1    ; exit command
-  int	0x80      ; run in kernel
+  mov	eax, 1
+  int 0x80
 
 data db 'Hello World!', 0xA
 len equ $ - data
